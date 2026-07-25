@@ -1,3 +1,7 @@
+# Student Details
+* **Name:** [C.P.Imashi Fernando]
+* **Student Index Number:** [ITBIN-2313-0033]
+
 ## Live App (Streamlit Cloud)
 * You can access the live application here: [GovAssist SL Live App](https://agentic-ai-assignment-9tf2osxrtpmkessyparbn6.streamlit.app)
 
