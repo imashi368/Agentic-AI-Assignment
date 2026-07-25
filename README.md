@@ -1,3 +1,6 @@
+## Live App (Streamlit Cloud)
+* You can access the live application here: [GovAssist SL Live App](https://agentic-ai-assignment-9tf2osxrtpmkessyparbn6.streamlit.app)
+
 ## Retrieval Evaluation
 
 I tested my RAG pipeline with 5 sample queries to evaluate the relevance and accuracy of the retrieved context and generated responses:
@@ -20,16 +23,15 @@ I tested my RAG pipeline with 5 sample queries to evaluate the relevance and acc
 
 5. **Query:** What are the guidelines and application details for residence visas in Sri Lanka?
    - **Retrieved Context Relevance:** Retrieved specific residence visa clauses from residence_visa.pdf
-   - **Generated Answer Accuracy:** Correctly identified visa issuance procedures and rules.  
+   - **Generated Answer Accuracy:** Correctly identified visa issuance procedures and rules.
 
-   ## Model Selection & Comparison
+## Model Selection & Comparison
 
 | Model Name | Provider | Strengths | Use Case in GovAssist SL |
 | :--- | :--- | :--- | :--- |
 | **llama-3.1-8b-instant** | Groq | Ultra-low latency, high speed, near-free token cost | **Intent Routing & Quick Classification** (Used by the Router Agent to instantly analyze user intent) |
 | **llama-3.3-70b-versatile** | Groq | Advanced reasoning, excellent context handling, high accuracy | **Deep Reasoning & Response Synthesis** (Used by the Verifier Agent to generate final precise answers) |
 | **mixtral-8x7b-32768** | Groq / OpenRouter | Large context window, strong multilingual support | **Document Context Processing** (Handling multi-page government PDFs effectively) |
-
 
 ```mermaid
 sequenceDiagram
@@ -46,7 +48,3 @@ sequenceDiagram
     Service->>Verifier: Passes retrieved context & query
     Verifier->>Verifier: Synthesizes final response & extracts sources
     Verifier->>User: Displays AI response & sources
-
-
-## Live App (Streamlit Cloud)
-You can access the live application here: [GovAssist SL Live App](https://agentic-ai-assignment-9tf2osxrtpmkessyparbn6.streamlit.app)
