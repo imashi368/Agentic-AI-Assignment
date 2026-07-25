@@ -46,3 +46,6 @@ sequenceDiagram
     Service->>Verifier: Passes retrieved context & query
     Verifier->>Verifier: Synthesizes final response & extracts sources
     Verifier->>User: Displays AI response & sources
+
+## Live App (Streamlit Cloud)
+You can access the live application here: [GovAssist SL Live App](https://agentic-ai-assignment-9tf2osxrtpmkessyparbn6.streamlit.app)
