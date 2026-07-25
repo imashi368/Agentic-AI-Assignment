@@ -2,7 +2,7 @@ import streamlit as st
 from agents.router_agent import RouterAgent
 from agents.service_agent import ServiceAgent
 from agents.verifier_agent import VerifierAgent
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
 from groq import Groq
 
