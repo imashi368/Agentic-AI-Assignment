@@ -3,7 +3,7 @@
 * **Student Index Number:** [ITBIN-2313-0033]
 
 ## Live App (Streamlit Cloud)
-* You can access the live application here: [GovAssist SL Live App](https://agentic-ai-assignment-9tf2osxrtpmkessyparbn6.streamlit.app)
+* You can access the live application here: [GovAssist SL Live App](https://agentic-ai-assignment-9tf2osxrtpmkessyparbn6.streamlit.app/)
 
 ## Retrieval Evaluation
 
@@ -35,7 +35,7 @@ I tested my RAG pipeline with 5 sample queries to evaluate the relevance and acc
 | :--- | :--- | :--- | :--- |
 | **llama-3.1-8b-instant** | Groq | Ultra-low latency, high speed, near-free token cost | **Intent Routing & Quick Classification** (Used by the Router Agent to instantly analyze user intent) |
 | **llama-3.3-70b-versatile** | Groq | Advanced reasoning, excellent context handling, high accuracy | **Deep Reasoning & Response Synthesis** (Used by the Verifier Agent to generate final precise answers) |
-| **mixtral-8x7b-32768** | Groq / OpenRouter | Large context window, strong multilingual support | **Document Context Processing** (Handling multi-page government PDFs effectively) |
+
 
 ```mermaid
 sequenceDiagram
